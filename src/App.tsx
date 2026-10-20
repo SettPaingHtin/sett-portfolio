@@ -26,9 +26,9 @@ const projects: Project[] = [
     stack: ['Python', 'FastAPI', 'React', 'TypeScript'],
     icon: Sparkles,
     accent: 'violet',
-    status: 'In progress',
+    status: 'Finished',
     details: [
-      'Designed around repeatable evaluation runs and side-by-side model comparisons.',
+      'Designed around repeatable evaluation runs and side by side model comparisons.',
       'Planned regression checks to help surface changes in output quality.',
       'Intended to make quality, latency, and cost easier to inspect together.',
     ],
@@ -78,7 +78,7 @@ function App() {
   const [copied, setCopied] = useState(false)
 
   const closeMenu = () => setMenuOpen(false)
-  const email = 'your.email@example.com'
+  const email = 'settpainghtin03@gmail.com'
 
   async function copyEmail() {
     try {
@@ -116,7 +116,7 @@ function App() {
             <div className="eyebrow"><span className="status-dot" /> OPEN TO SOFTWARE ENGINEERING OPPORTUNITIES</div>
             <h1>Building software<br />with <span className="gradient-text">purpose.</span></h1>
             <p className="hero-intro">
-              I’m Sett — a computer science graduate who enjoys turning complex problems into useful, reliable software.
+              I’m Sett, a computer science graduate who enjoys turning complex problems into useful, reliable software. 
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#work">Explore my work <ArrowDownRight size={17} /></a>
@@ -164,7 +164,7 @@ function App() {
         <section className="work-section section-wrap" id="work">
           <div className="section-heading">
             <div><div className="section-kicker">01 / SELECTED WORK</div><h2>Projects & experience<span className="heading-period">.</span></h2></div>
-            <p>A mix of hands-on product development and systems projects I’m building to deepen my engineering skills.</p>
+            <p>A mix of hands on product development and systems projects I’m building to deepen my engineering skills.</p>
           </div>
           <div className="project-grid">
             {projects.map((project) => {
@@ -203,7 +203,7 @@ function App() {
           <div className="about-grid">
             <div className="about-main">
               <div className="about-mark">“</div>
-              <p className="about-statement">I like understanding <span>how things work</span> — then making them work better.</p>
+              <p className="about-statement">I like understanding <span>how things work</span> then making them work better.</p>
               <p className="about-body">I graduated from UC Santa Cruz with a degree in Computer Science: Game Design. My experience spans full-stack web development, database performance, and user-focused interfaces. Outside of shipping features, I’m interested in the engineering behind dependable systems.</p>
               <p className="about-body">I value clear communication, thoughtful implementation, and learning from feedback. I’m looking for a team where I can contribute, grow, and build software people can rely on.</p>
             </div>
@@ -246,7 +246,7 @@ function App() {
               <button className="button button-primary" onClick={copyEmail}><Mail size={16} /> {copied ? 'Email copied' : 'Copy email address'} <ArrowUpRight size={15} /></button>
               <a className="button button-quiet" href={`mailto:${email}`}>Send an email <ArrowRight size={15} /></a>
             </div>
-            <div className="contact-placeholder">Before publishing, replace <code>your.email@example.com</code> and add your real profile links.</div>
+      
           </div>
         </section>
       </main>
